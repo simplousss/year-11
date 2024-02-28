@@ -8,7 +8,7 @@ body {
   h2 {
     color: blue;
   }
-  ul {
+  .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -19,11 +19,11 @@ body {
     width: 100%;
   }
   
-  li {
+  .navbar li {
     float: left;
   }
   
-  li a {
+ .navbar li a {
     display: block;
     color: white;
     text-align: center;
@@ -31,10 +31,38 @@ body {
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  .navbar li a:hover:not(.active) {
     background-color: #111;
   }
   
   .active {
     background-color: #04AA6D;
   }
+
+  .navbar {
+    padding:20px;
+    margin-top:30px;
+  }
+  
+  .project-title {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+
+  .home-info {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+
+  .contents {
+    position: absolute;
+    top: 30%;
+    right: 20%;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+}
