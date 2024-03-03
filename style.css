@@ -66,3 +66,33 @@ body {
     display: flex;
     align-items: center;
 }
+.final-outcome{
+  position: absolute;
+  top: 70%;
+  left: 10%;
+} 
+.end-users{
+  position: absolute;
+  top: 100%;
+  left: 10%;
+}
+.requirements{
+  position: absolute;
+  top: 120%;
+  left: 10%;
+}
+.implications{
+  position: absolute;
+  top: 165%;
+  left: 10%;
+}
+p.a {
+  text-align: left;
+  text-align: center;
+
+}
+
+p.b {
+  text-align: left;
+  text-align: center;
+}
