@@ -1,12 +1,22 @@
 body {
     background-color: powderblue;
     margin:0;
+    background-image: url(background.jpeg)
   }
   h1 {
-    color: blue;
+    color: rgb(135, 0, 153);
   }
   h2 {
-    color: blue;
+    color: rgb(135, 0, 153);
+  }
+  p {
+    color: pink;
+  }
+  h3 {
+color: pink;
+  }
+  li {
+color: pink;
   }
   .navbar ul {
     list-style-type: none;
@@ -95,4 +105,20 @@ p.a {
 p.b {
   text-align: left;
   text-align: center;
+}
+.split-box {
+  display: flex;
+  align-items: center;
+}
+.left-text {
+  flex: 0 0 45%;
+  margin-right: var(--padding-medium);
+}
+
+.right-text {
+  flex: 0 0 45%;
+  margin-left: var(--padding-medium);
+}
+section {
+  height: 500px;
 }
