@@ -10,13 +10,13 @@ body {
     color: rgb(135, 0, 153);
   }
   p {
-    color: pink;
+    color: rgb(32, 222, 255);
   }
   h3 {
-color: pink;
+color: rgb(32, 222, 255);
   }
   li {
-color: pink;
+color: rgb(32, 222, 255);
   }
   .navbar ul {
     list-style-type: none;
