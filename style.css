@@ -122,3 +122,8 @@ p.b {
 section {
   height: 500px;
 }
+.lowpoly{
+  max-width: 25%;
+    max-height:15%;
+    float: left;
+}
